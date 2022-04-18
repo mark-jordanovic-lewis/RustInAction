@@ -6,6 +6,8 @@ edition = "2021"
 [dependencies]
 byteorder = "1.2"
 crc = "1.7"
+serde_derive = "1.0.136"
+serde = { version = "1.0.136", features = ["derive"]}
 
 [lib]
 name = "libactionkv"
